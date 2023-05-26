@@ -1,0 +1,23 @@
+# Business
+SELECT COUNT(*) FROM business;
+11481
+
+# Attributes
+SELECT COUNT(*) FROM attributes;
+227536
+
+# Categories
+SELECT COUNT(*) FROM categories;
+33619
+
+# Check-in
+SELECT COUNT(*) FROM checkin;
+481360
+
+# User
+SELECT COUNT(*) FROM users;
+192999
+
+# Review
+SELECT COUNT(*) FROM review;
+416479

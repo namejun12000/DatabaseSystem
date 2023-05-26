@@ -1,0 +1,6 @@
+JSON files are larger than 100 MB. This project uses 4 JSON files from https://www.yelp.com/dataset
+
+1. yelp_business.JSON
+2. yelp_checkin.JSON
+3. yelp_review.JSON
+4. yelp_user.JSON
