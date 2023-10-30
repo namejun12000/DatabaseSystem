@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1872</width>
-    <height>981</height>
+    <width>1496</width>
+    <height>827</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -46,7 +46,7 @@ color: rgb(0, 0, 0);
        <x>0</x>
        <y>0</y>
        <width>1727</width>
-       <height>889</height>
+       <height>898</height>
       </rect>
      </property>
      <attribute name="label">
@@ -284,10 +284,19 @@ background-color: rgb(197, 197, 197);</string>
         </rect>
        </property>
        <property name="styleSheet">
-        <string notr="true">border-image:url(&quot;C://Users//namej//Desktop//NamJunLee_milestone3//picture//stat.jpg&quot;);</string>
+        <string notr="true">border-image:url(&quot;/Users/namjunlee/Documents/GitHub/DatabaseSystem/Project/NamJunLee_milestone3/picture/stat.jpg&quot;);</string>
        </property>
        <property name="text">
         <string/>
+       </property>
+       <property name="textFormat">
+        <enum>Qt::AutoText</enum>
+       </property>
+       <property name="pixmap">
+        <pixmap>../picture/stat.png</pixmap>
+       </property>
+       <property name="scaledContents">
+        <bool>true</bool>
        </property>
       </widget>
       <widget class="QLabel" name="totalPPlabel">
@@ -305,6 +314,12 @@ background-color: rgb(197, 197, 197);</string>
        <property name="text">
         <string/>
        </property>
+       <property name="pixmap">
+        <pixmap>../picture/population.png</pixmap>
+       </property>
+       <property name="scaledContents">
+        <bool>true</bool>
+       </property>
       </widget>
       <widget class="QLabel" name="avgLabel">
        <property name="geometry">
@@ -320,6 +335,12 @@ background-color: rgb(197, 197, 197);</string>
        </property>
        <property name="text">
         <string/>
+       </property>
+       <property name="pixmap">
+        <pixmap>../picture/income.png</pixmap>
+       </property>
+       <property name="scaledContents">
+        <bool>true</bool>
        </property>
       </widget>
      </widget>
@@ -442,10 +463,21 @@ background-color: rgb(197, 197, 197);
         </rect>
        </property>
        <property name="styleSheet">
-        <string notr="true">border-image:url(&quot;C://Users//namej//Desktop//NamJunLee_milestone3//picture//search.jpg&quot;);</string>
+        <string notr="true">background-color: rgb(255, 255, 255);</string>
        </property>
        <property name="text">
         <string/>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normalon>../picture/search.png</normalon>
+        </iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>41</width>
+         <height>41</height>
+        </size>
        </property>
       </widget>
       <widget class="QPushButton" name="clearButton">
@@ -464,6 +496,17 @@ background-color: rgb(255, 255, 255);
        </property>
        <property name="text">
         <string/>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normalon>../picture/clean.png</normalon>
+        </iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>51</width>
+         <height>51</height>
+        </size>
        </property>
       </widget>
      </widget>
@@ -542,6 +585,17 @@ background-color: rgb(212, 180, 169);</string>
       <property name="text">
        <string/>
       </property>
+      <property name="icon">
+       <iconset>
+        <normalon>../picture/refresh.png</normalon>
+       </iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>71</width>
+        <height>71</height>
+       </size>
+      </property>
      </widget>
     </widget>
    </widget>
@@ -551,8 +605,8 @@ background-color: rgb(212, 180, 169);</string>
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>1872</width>
-     <height>26</height>
+     <width>1496</width>
+     <height>21</height>
     </rect>
    </property>
   </widget>
